@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('spooky.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    height: 130px;
+}
+
+.logo {
+    height: 50px;
+    font-family: 'Lacquer', cursive;
+    color: red;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    width: 269px;
+    height: 101px;
+    top: 29px;
+    left: 40px;
+}
+
+.logo:hover {
+    color: red;
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+.navbar li {
+    width: 111px;
+    height: 50px;
+    top: 29px;
+    left: 428px;
+    font-weight: 400px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: 'Onest', sans-serif;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.navbar .active {
+    color: orange;
+}
+
+.search {
+    height: 80px;
+    float: right;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 8px 16px;
+    border-radius: 40px;
+}
+
+.search-box .search-icon {
+    font-size: 1.18rem;
+}
+
+.search-box .search-input {
+    transition: .5s;
+    width: 0px;
+    overflow: hidden;
+}
+
+.search-input .input {
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-box .search-input {
+    width: 150px;
+    margin-left: 8px;
+}
+
+.boxcontent{
+    width: 70%;
+    margin: 50px 15%;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.boxcontent img{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.boxtext{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.boxtext p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+@keyframes puterin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@media screen and (max-width: 768px){
+	.container {
+		width:90%;
+	}
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+	header ul {
+		text-align: center;
+		float: none;
+	}
+	.box .col-4 {
+		width:100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,99 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('image\ 2.png');
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Onest', sans-serif;
+}
+
+.back {
+    margin-right: 100%;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile h2 {
+    font-size: 30px;
+}
+
+.profile p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Onest', sans-serif;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.contact {
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 10px 0;
+    color: white;
+    font-family: 'Onest', sans-serif;
+}
+
+h1, h2 {
+    color: #fff;
+    font-family: 'Onest', sans-serif;
+}
+
+.menu {
+    height: 50px;
+    width: 400px;
+    color: white;
+    display: inline;
+}
+
+.menu ul {
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.menu li{
+    margin-left: 30px;
+    float: right;
+    border: 1px solid white;
+    padding: 4px 15px;
+    list-style: none;
+    background-color: black;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Onest', sans-serif;
+}
+
+.menu .active {
+    color: #BC4400;
+}
+
+.menu li a:hover {
+    color: #BC4400;
+}

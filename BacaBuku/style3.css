@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+}
+
+.back {
+    padding: 20px;
+    margin: 0;
+}
+
+.text p{
+ color: white;
+ display: flex;
+ padding: 30px;
+}
+
+.text h2 {
+    color: white;
+    text-align: center;
+}
